@@ -1,0 +1,39 @@
+
+This should be simple if you really passed CS210.  But be careful:  
+I ask for a Line class a little different than the exercise in the text, 
+which is a line segment  I'm asking for a line in general that has undefined length. 
+And be certain you follow the code specifications enumerated below.  
+These code specs apply to all files you submit for this course!!!
+
+Write a class called Line that represents a line such as y=mx+b.  
+Your Line class cannot have any System. calls, must have at a minimum 
+the following defined, and only two private fields (attributes)::
+
+private double slope; // the slope of this line
+
+private double intercept; // the intercept of this line
+
+public Line(Point p1, Point p2) // Constructor using java.awt.Point
+
+public double getSlope() // returns the slope of this line
+
+public boolean intersect(Line other) // true if this Line intersects another Line
+
+public String toString() // returns a form like y=mx+b for user to examine this Line
+
+ 
+
+Attach a simple text .java file, following the coding specs of our text, 
+specifically adhering to:
+
+File name matches class name which starts with uppercase character.
+It compiles with one of the Java IDE's using JDK7
+Import only java and javax classes, or other classes covered in our text
+Never submit specialized IDE specific code (I might just run at command line)
+Never submit those //TODO lines that show your IDE generated this and you did not change it.
+Your name, date, and reasons for doing this appear as the first few lines (/** comments */)
+More lines of comments, using // style, so every screen had a few comments at all times.
+Proper indent of code as described in textbook, for class, methods, loops, decisions, etc...
+Proper naming of objects (start lower case) using reasonably descriptive names.
+Good Boolean ZEN, and never let me see while(true) or if(true) as you can do better.
+ALL CODE FILES you submit to me MUST follow above guidelines, else a ZERO is possible!!!
